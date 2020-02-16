@@ -1,6 +1,7 @@
-package org.smart4j.framework.util;
+package org.smart4j.framework.core;
 
 import org.smart4j.framework.ConfigConstant;
+import org.smart4j.framework.util.PropertiesUtils;
 
 import java.util.Properties;
 
@@ -9,7 +10,7 @@ import java.util.Properties;
  * @Description: 获取配置文件属性
  * @Date: Created in 2/15/2020 5:33 PM
  */
-public final class ConfigUtils {
+public final class ConfigHelper {
 
     // 加载配置文件
     private static final Properties CONFIG_PROPERTIES = PropertiesUtils.loadProperties(ConfigConstant.CONFIG_FILE);
