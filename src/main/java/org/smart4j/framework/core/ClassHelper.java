@@ -3,7 +3,6 @@ package org.smart4j.framework.core;
 import org.smart4j.framework.annotation.Controller;
 import org.smart4j.framework.annotation.Service;
 import org.smart4j.framework.util.ClassLoadUtils;
-
 import java.util.HashSet;
 import java.util.Set;
 
